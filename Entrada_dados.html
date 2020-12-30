@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+     <title>Tipos De Entrada De Dados</title>
+     <meta charset="utf-8">
+     <meta author="Gabriel Bosta" content="Base em Entrada de Dados">
+     <meta name="keywords"  content="Entrada,Dados, HTML5, CSS3" >
+     <meta name="description" content="Entrada De Dados Bacanuda">
+
+</head>
+<body>
+    <h1>Entrada De Dados</h1>
+    <form action="#" method="POST" class="formlogin">
+          <fieldset>
+              
+            <legend>Dados Pessoais</legend>
+            
+            <label>Email</label>
+            <input type="type" required placeholder="Digite um e-mail válido">
+
+            <label>Numeros De Filhos</label>
+            <input type="Number" step="0.5">
+         
+            <br>
+            <label>Nascimento</label>
+            <input type="date" min="2018-01-30" max="2138-01-30">
+            
+
+            <P>Sexo:</P>
+            <label>
+            <input type="radio" name="sexo" value="M">
+            Masculino</label>
+            <label>
+            <input type="radio" name="sexo" value="F">    
+            Feminino</label>
+
+            <label>Estado</label>
+                
+            <select>
+                <option value="0">Selecione</option>
+                <option value="SP">São Paulo</option>
+                <option value="RJ">Rio De Janeiro</option>
+                <option value="RS">Rio Grande Do Sul</option>
+            </select>
+          </fieldset>
+             <fieldset>
+                <legend>Área de Interesse</legend>
+                
+                    <label><input type="checkbox" name="html" value="html">HTML</label>    
+                   
+                    <label><input type="checkbox" name="css" value="css">CSS</label>    
+                 
+                    <label><input type="checkbox" name="javascript" value="javascript">JAVASCRIPT</label>    
+            </fieldset>             
+            <fieldset>
+                <legend>Mensagem</legend>     
+                <textarea style="resize: none" name="msg" cols="30" rows="10" readonly></textarea>
+                    
+                <textarea style="resize: none" name="msg" cols="30" rows="10">Aqui entra o texto de contrato que precisa ser aceito.
+                </textarea>
+                <label><input type="checkbox">Li e Aceito.</label>    
+                
+                <input type="range" min="0" max="10" step=".2">
+                <input type="time">
+                <input type="color">
+               
+                <select size="5" multiple>   
+                <option>opção 1</option>
+                <option>opção 2</option>
+                <option>opção 3</option>
+                <option>opção 4</option>
+                <option>opção 5</option>
+                </select>
+        
+         </fieldset>     
+
+                <br>
+                <input type="submit" value="mandar">
+                <input type="button" value="button">
+                <input type="reset" value="reset">
+ </form>
+</body>
+</html>
